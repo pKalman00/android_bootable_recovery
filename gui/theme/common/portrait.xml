@@ -570,14 +570,13 @@
 			<text style="text_l">
 				<!-- <placement x="%col1_x_header%" y="%row3_header_y%"/> -->
 				<placement x="%advanced_text_1_x%" y="%advanced_text_1_y%"/>
-				<text>Backup Restore</text>
+				<text>Backup &amp; Restore</text>
 			</text>
 
-			<text style="text_sub_header">
-				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>{@storage_hdr=Storage: %tw_storage_display_name% (%tw_storage_free_size% MB)}</text>
-			</text>
-
+			<!-- <text style="text_sub_header"> -->
+			<!-- 	<placement x="%col1_x_header%" y="%row4_header_y%"/> -->
+			<!-- 	<text>{@storage_hdr=Storage: %tw_storage_display_name% (%tw_storage_free_size% MB)}</text> -->
+			<!-- </text> -->
 
 			<button style="main_button_half_height_new">
 				<placement x="%indent%" y="%row20a_y%"/>
@@ -596,7 +595,6 @@
                     <action function="page">restore</action>
 				</actions>
 			</button>
-
 
 			<action>
 				<touch key="home"/>
