@@ -4588,11 +4588,11 @@
 				<text>{@advanced_hdr=Advanced}</text>
 			</text>
 
-			<button>
-				<image resource="main_button_special"/>
-				<placement x="%advanced_main_button_special_x%" y="%advanced_main_button_special_y%"/>
-				<action function="page">pbrp_special</action>
-			</button>
+			<!-- <button> -->
+			<!-- 	<image resource="main_button_special"/> -->
+			<!-- 	<placement x="%advanced_main_button_special_x%" y="%advanced_main_button_special_y%"/> -->
+			<!-- 	<action function="page">pbrp_special</action> -->
+			<!-- </button> -->
 
 			<listbox style="advanced_listbox">
 				<placement x="%listbox_x%" y="%row1a_y%" w="%screen_width%" h="%advanced_listbox_h%"/>
