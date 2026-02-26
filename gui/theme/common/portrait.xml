@@ -415,7 +415,8 @@
 				<placement x="%indent_button%" y="%row7a_y%" textplacementmain="1"/>
 				<icon resource="main_button_backup"/>
 				<text>{@backup_btn=Backup}</text>
-				<action function="page">backup</action>
+				<!-- <action function="page">backup</action> -->
+				<action function="page">backup_restore</action>
 			</button>
 
 			<button style="main_button_black">
@@ -551,6 +552,61 @@
 				<placement x="%main2_text_header_x_600%" y="%main2_text_header_y_1192%"/>
 				<text>{@advanced2_txt=Advanced Stuff}</text>
 			</text>
+		</page>
+
+		<page name="backup_restore">
+			<template name="page"/>
+
+			<image>
+				<image resource="main_button_black3"/>
+				<placement x="%indent%" y="%upper_header%"/>
+			</image>
+
+			<image>
+				<image resource="main_button_mount"/>
+				<placement x="%main_button_mount_x%" y="%main_button_y%"/>
+			</image>
+
+			<text style="text_l">
+				<!-- <placement x="%col1_x_header%" y="%row3_header_y%"/> -->
+				<placement x="%advanced_text_1_x%" y="%advanced_text_1_y%"/>
+				<text>"Backup Restore"</text>
+			</text>
+
+			<text style="text_sub_header">
+				<placement x="%col1_x_header%" y="%row4_header_y%"/>
+				<text>{@storage_hdr=Storage: %tw_storage_display_name% (%tw_storage_free_size% MB)}</text>
+			</text>
+
+
+			<button style="main_button_half_height_new">
+				<placement x="%indent%" y="%row20a_y%"/>
+				<text>"Backup"</text>
+				<actions>
+					<action function="set">pb_back=backup_restore</action>
+                    <action function="page">backup</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height_new">
+				<placement x="%center_x%" y="%row20a_y%"/>
+				<text>"Restore"</text>
+				<actions>
+					<action function="set">pb_back=backup_restore</action>
+                    <action function="page">restore</action>
+				</actions>
+			</button>
+
+
+			<action>
+				<touch key="home"/>
+				<action function="page">main</action>
+			</action>
+
+			<action>
+				<touch key="back"/>
+				<action function="page">main</action>
+			</action>
 		</page>
 
 		<page name="filter_">
