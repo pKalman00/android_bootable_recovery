@@ -422,16 +422,17 @@
 
 			<button style="main_button_black">
 				<placement x="%main_button_space%" y="%row7a_y%" textplacementmain="1"/>
-				<icon resource="main_button_restore"/>
-				<text>{@restore_btn=Restore}</text>
-				<action function="page">restore</action>
+				<icon resource="main_button_mount"/>
+				<text>{@mount_btn=Mount}</text>
+				<action function="page">mount</action>
 			</button>
 
 			<button style="main_button_black">
 				<placement x="%indent_button%" y="%row13_y%" textplacementmain="1"/>
-				<icon resource="main_button_mount"/>
-				<text>{@mount_btn=Mount}</text>
-				<action function="page">mount</action>
+				<!-- <icon resource="main_button_restore"/> -->
+				<icon resource="main_button_adb"/>
+				<text>ADB Sideload</text>
+				<action function="page">sideload</action>
 			</button>
 
 			<button style="main_button_black">
@@ -6721,7 +6722,7 @@
 
 			<action>
 				<touch key="back"/>
-				<action function="page">advanced</action>
+				<action function="page">main</action>
 			</action>
 		</page>
 
