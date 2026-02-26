@@ -528,22 +528,22 @@
 			</text>
 
 			<text style="text_header">
-				<placement x="%main2_text_header_x_600%" y="%main2_text_header_y_790%"/>
-				<text>{@restore_txt=Get back your Precious}</text>
-			</text>
-
-			<text style="text_header">
-				<placement x="%main2_text_header_x_600%" y="%main2_text_header_y_840%"/>
-				<text>{@restore2_txt=Gems. Have you saved?}</text>
-			</text>
-
-			<text style="text_header">
 				<placement x="%main2_text_header_x_80%" y="%main2_text_header_y_1142%"/>
-				<text>{@mount_txt=Get your device's}</text>
+				<text>Install your packages</text>
 			</text>
 
 			<text style="text_header">
 				<placement x="%main2_text_header_x_80%" y="%main2_text_header_y_1192%"/>
+				<text>via ADB</text>
+			</text>
+
+			<text style="text_header">
+				<placement x="%main2_text_header_x_600%" y="%main2_text_header_y_790%"/>
+				<text>{@mount_txt=Get your device's}</text>
+			</text>
+
+			<text style="text_header">
+				<placement x="%main2_text_header_x_600%" y="%main2_text_header_y_840%"/>
 				<text>{@mount2_txt=Partitions Mounted}</text>
 			</text>
 
