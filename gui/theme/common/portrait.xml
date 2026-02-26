@@ -413,8 +413,9 @@
 
 			<button style="main_button_black">
 				<placement x="%indent_button%" y="%row7a_y%" textplacementmain="1"/>
-				<icon resource="main_button_backup"/>
-				<text>{@backup_btn=Backup}</text>
+				<!-- <icon resource="main_button_backup"/> -->
+				<icon resource="main_button_restore"/>
+				<text>B &amp; R</text>
 				<!-- <action function="page">backup</action> -->
 				<action function="page">backup_restore</action>
 			</button>
@@ -515,12 +516,14 @@
 
 			<text style="text_header">
 				<placement x="%main2_text_header_x_80%" y="%main2_text_header_y_790%"/>
-				<text>{@backup_txt=Keep Your Precious Gems}</text>
+				<!-- <text>{@backup_txt=Keep Your Precious Gems}</text> -->
+                <text>Backup and Restore</text>
 			</text>
 
 			<text style="text_header">
 				<placement x="%main2_text_header_x_80%" y="%main2_text_header_y_840%"/>
-				<text>{@backup2_txt=at A Safer Place}</text>
+				<!-- <text>{@backup2_txt=at A Safer Place}</text> -->
+                <text>unified page</text>
 			</text>
 
 			<text style="text_header">
@@ -563,7 +566,7 @@
 			</image>
 
 			<image>
-				<image resource="main_button_mount"/>
+				<image resource="main_button_restore"/>
 				<placement x="%main_button_mount_x%" y="%main_button_y%"/>
 			</image>
 
