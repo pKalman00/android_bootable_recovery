@@ -2326,7 +2326,7 @@
 
 			<action>
 				<touch key="back"/>
-				<action function="page">main</action>
+                <action function="page">backup_restore</action>
 			</action>
 		</page>
 
@@ -2880,7 +2880,7 @@
 
 			<action>
 				<touch key="back"/>
-				<action function="page">main</action>
+				<action function="page">backup_restore</action>
 			</action>
 		</page>
 
