@@ -582,7 +582,6 @@
 				<placement x="%indent%" y="%row20a_y%"/>
 				<text>Backup</text>
 				<actions>
-					<action function="set">pb_back=backup_restore</action>
                     <action function="page">backup</action>
 				</actions>
 			</button>
@@ -591,7 +590,6 @@
 				<placement x="%center_x%" y="%row20a_y%"/>
 				<text>Restore</text>
 				<actions>
-					<action function="set">pb_back=backup_restore</action>
                     <action function="page">restore</action>
 				</actions>
 			</button>
