@@ -6683,7 +6683,7 @@
 			<!-- 	<text>{@advanced_hdr=Advanced}</text> -->
 			<!-- </text> -->
 
-			<text style="text_sub_header">
+			<text style="text_l">
 				<!-- <placement x="%col1_x_header%" y="%row4_header_y%"/> -->
 				<placement x="%advanced_text_1_x%" y="%advanced_text_1_y%"/>
 				<text>{@adb_sideload_hdr=ADB Sideload}</text>
