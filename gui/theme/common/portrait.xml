@@ -6704,7 +6704,7 @@
 			<slider>
 				<text>{@swipe_to_sideload=Swipe to Start Sideload}</text>
 				<actions>
-					<action function="set">tw_back=advanced</action>
+					<action function="set">tw_back=main</action>
 					<action function="set">tw_action=adbsideload</action>
 					<action function="set">tw_action_text1={@sideload_confirm=ADB Sideload}</action>
 					<action function="set">tw_action_text2={@sideload_usage=Usage: adb sideload filename.zip}</action>
